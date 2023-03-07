@@ -1,0 +1,50 @@
+body {
+	background-color: #d7f792;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+}
+
+.note-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 8px;
+}
+
+.note-edit, .note-delete {
+	padding: 5px;
+	
+}
+
+.notes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.note {
+	background-color: #16fa9b;
+	height: 350px;
+	width: 270px;
+	margin: 10px;
+	padding: 5px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.invisible {
+	display: none;
+}
+
+p {
+	word-wrap: break-word;
+}
